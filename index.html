@@ -30,16 +30,19 @@
   </style>
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe
-      id="app"
-      src="https://script.google.com/macros/s/AKfycbz617hL5H00YVrIfzX24NDQ7h4OK9SwYkb0jV1RJvTZEkdpYAzBWERbdGTRBqULTSg/exec"
-      scrolling="yes"
-      allowfullscreen="true"
-      webkitallowfullscreen="true"
-      mozallowfullscreen="true"
-      allow="fullscreen; camera; microphone; display-capture; geolocation;">
-    </iframe>
+
+  <div class="loading-container">
+    <div class="loading-box">
+      <h3>Memuat Aplikasi BMN...</h3>
+      <p>Silakan tunggu</p>
+    </div>
   </div>
+
+  <script>
+    window.location.replace(
+      "https://script.google.com/macros/s/AKfycbz617hL5H00YVrIfzX24NDQ7h4OK9SwYkb0jV1RJvTZEkdpYAzBWERbdGTRBqULTSg/exec"
+    );
+  </script>
+
 </body>
 </html>
